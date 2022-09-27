@@ -1,0 +1,23 @@
+{
+  "name": "gsap-examples",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manojms1997/GSAP-examples.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manojms1997/GSAP-examples/issues"
+  },
+  "homepage": "https://github.com/Manojms1997/GSAP-examples#readme",
+  "dependencies": {
+    "gsap": "^3.11.2"
+  },
+  "type": "module"
+}
