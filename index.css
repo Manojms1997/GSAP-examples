@@ -8,9 +8,14 @@
 .box {
     width: 200px;
     height: 200px;
+    margin: 10px;
     background: rgb(11, 185, 58);
     color: #000;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  #stagger-container{
+    display: flex;
   }

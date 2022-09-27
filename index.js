@@ -9,3 +9,9 @@ box.addEventListener("click", () => {
 
     box.innerHTML = ""
 })
+
+const staggerButton = document.getElementById("stagger-button")
+
+staggerButton.addEventListener("click", () => {
+    gsap.fromTo(".stagger-box", {opacity: 0, y : 100}, {opacity: 1, y:0, duration: 1, stagger:0.3})
+})
