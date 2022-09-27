@@ -12,6 +12,12 @@ box.addEventListener("click", () => {
 
 const staggerButton = document.getElementById("stagger-button")
 
+staggerTween = null
 staggerButton.addEventListener("click", () => {
-    gsap.fromTo(".stagger-box", {opacity: 0, y : 100}, {opacity: 1, y:0, duration: 1, stagger:0.3})
+    staggerTween = gsap.fromTo(".stagger-box", {opacity: 0, y : 100}, {opacity: 1, y:0, duration: 1, stagger:0.3})
+})
+
+const staggerReverse = document.getElementById("stagger-reverse")
+staggerReverse.addEventListener("click", () => {
+    staggerTween.reverse()
 })
